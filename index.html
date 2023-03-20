@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudharsan M</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+       <link rel="stylesheet" href="/assets/decode.css"> -->
+    <!-- <link rel="stylesheet" href=""> -->
+    <script src="https://kit.fontawesome.com/9dd1325b79.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button id="btnScrollToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#Certifications">My Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>SUDHARSAN</span></h1>
+                <h1>From Karur, Tamil Nadu.</h1>
+                <h1>Student at <span>KPRIET</span>,Coimbatore.<h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-02-26 at 9.43.29 PM.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p class="space">Welcome to my portfolio website! My name is SUDHARSAN, and I am a Student. I have
+                        been pursuing my Third Year Bachelor Degree in Computer Science And Engineering from the KPR
+                        Institute Of Engineering And Technology, specializing in website design.
+                        I am passionate about programming and creating innovative solutions to complex problems. Through
+                        this website, I want to share with you some of my accomplishments, projects, and skills.</p><br>
+                    <p class="space">Thank you for taking the time to visit my website, and I hope you find what you're
+                        looking for. If you have any questions, please feel free to get in touch.</p>
+                    <div class="tab-titles">
+                        <!-- <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p> -->
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Internships</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>PROFESSIONAL SKILLS</span><br><br>Java<br><br>HTML & CSS<br><br>JavaScript<br><br>SQL
+                            </li><br>
+                            <li><span>PERSONAL SKILLS</span><br><br>I can easily adapt any type of environment<br><br>Quick Learner<br><br>Time Management</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>Secondary - 2018</span><br><br>Govt High School, Athur, Karur.<br><br>Percentage :
+                                <span>84.2%</span>
+                            </li><br>
+                            <li><span>Higher Secondary - 2020</span><br><br>Cheran Higher Secondary School, Punnam,
+                                Karur.<br><br>Percentage : <span>76.8%</span></li><br>
+                            <li><span>BE-Computer Science And Engineering - (2020 - 2024)</span><br><br>KPR Institute Of
+                                Engineering And Technology, Arasur, Coimbatore.<br><br>CGPA : <span>8.3</span></li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021</span><br><br>Web Design - Internship Training at <a
+                                    href="https://nandhainfotech.com/" target="_blank"
+                                    style="text-decoration: none; color: #00ccff;">NANDHA INFOTECH</a>, Coimbatore.</li>
+                            <br>
+                            <li><span>2022</span><br><br>Web Design - Online Internship Training at <a
+                                    href="https://axelit.com.au " target="_blank"
+                                    style="text-decoration: none; color: #00ccff;">AXEL IT SOLUTION PTY LTD</a>,
+                                Australia.</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li>No : 1 <br><br> Domain : <span>Web Development</span><br><br>Title : <span>Packers &
+                                    Movers Management System</span><br><br>Languages used: <span>HTML, CSS & PHP</span>
+                            </li><br><br><br>
+                            <li>No : 2 <br><br> Domain : <span>Web Development</span><br><br>Title : <span>Portfolio
+                                    website</span><br><br>Languages used: <span>HTML, CSS & JavaScript</span> </li>
+                            <br><br>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- skills -->
+    <div id="skill">
+        <div class="skill-section">
+            <h1 style="text-align: center;">Skills</h1>
+            <h2>Front End</h2>
+            <ul>
+                <li><i class="fa-brands fa-html5" style="color:black ;"></i><span>
+                        <h3>HTML</h3>
+                    </span></li>
+                <li><i class="fa-brands fa-css3-alt" style="color:black ;"></i><span>
+                        <h3>CSS</h3>
+                    </span></li>
+                <li><i class="fa-brands fa-js" style="color:black ;"></i><span>
+                        <h3>JavaScript</h3>
+                    </span></li>
+            </ul>
+            <br><br>
+            <h2>Back End</h2>
+            <ul>
+                <li><i class="fa-brands fa-java" style="color:black ;"></i><span>
+                        <h3>Java</h3>
+                    </span></li>
+            </ul>
+            <br><br>
+            <h2>Database</h2>
+            <ul>
+                <li><i class="fa-solid fa-database" style="color:black ;"></i><span>
+                        <h3>SQL</h3>
+                    </span></li>
+            </ul>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <!-- ------------- Projects ------------ -->
+    <div id="Project">
+        <div class="portfolio">
+            <h1>My Projects</h1><br><br>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <div class="pro">
+                        <img src="images/work-3.png" alt="Project Image">
+                        <div class="lay">
+                            <h3>Packers and Movers Management System</h3>
+                            <p>I have done this project during my internship period at AxelIT, Australia. It's fully
+                                based on the admin and his worker side. If we want to move our things from one place to
+                                another place, the admin will allocate the job for their workers by using this website.
+                            </p>
+                            <br>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="pro">
+                        <img src="images/work-2.png" alt="Project Image">
+                        <div class="lay">
+                            <h3>Portfolio website</h3>
+                            <p>I have create my own portfolio website. It will contains about me, my skills, my
+                                projects, my Certifications and my contact & digital profiles.In this i have used HTML,
+                                CSS & JavaScript.</p>
+                            <br>
+                            <a href="file:///D:/lkk/index.html" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- -----------------Certifications------------- -->
+    <div id="Certifications">
+        <div class="container">
+            <h1 class="sub-title" style="text-align: center;">My Certifications</h1>
+            <div class="certifications-list">
+                <div>
+                    <div class="work">
+                        <img src="images/Coursera HTML,CSS.jpg ">
+                        <div class="layer">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>HTML, CSS & JavaScript</h3><br>
+                            <p>I have completed the Coursera course on HTML, CSS, and JavaScript. I am now proficient in
+                                developing interactive and dynamic websites with these three technologies.</p><br>
+                            <a href="images/Coursera HTML,CSS.jpg" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/Coursera SQL.jpg ">
+                        <div class="layer">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>SQL</h3><br>
+                            <p>I have completed the Coursera course on SQL for Data Science. This course has equipped me
+                                with the skills to query and manipulate data, analyze data, and create visualizations.
+                            </p><br>
+                            <a href="images/Coursera SQL.jpg" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/udemy java.jpg ">
+                        <div class="layer">
+                            <i class="fa-brands fa-java"></i>
+                            <h3>Java</h3><br>
+                            <p>I have completed the Udemy course on Java Programming Beginner To Master. This course has
+                                equipped me with the skills to write the programs.</p><br>
+                            <a href="images/udemy java.jpg" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/udemy html css.jpg ">
+                        <div class="layer">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>HTML & CSS</h3><br>
+                            <p>I have completed the Udemy course on HTML & CSS. This course has equipped me with the
+                                skills to create a responsive websites.</p><br>
+                            <a href="images/udemy html css.jpg" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="work">
+                        <img src="images/great learning java.jfif ">
+                        <div class="layer">
+                            <i class="fa-brands fa-java"></i>
+                            <h3>Java</h3><br>
+                            <p>I have completed the Great Learning course on JAVA. This course has enabled me to gain
+                                valuable knowledge and skills in Java programming, which I am confident will be an asset
+                                to my professional career.</p><br>
+                            <a href="images/great learning java.jfif" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/guvi python.jfif ">
+                        <div class="layer">
+                            <i class="fa-brands fa-python"></i>
+                            <h3>Python</h3><br>
+                            <p>I have completed the Guvi course on Python. I am confident that I have acquired the
+                                necessary knowledge and skills to use Python effectively in a professional setting.</p>
+                            <br>
+                            <a href="images/guvi python.jfif" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/guvi computational thinking.jfif ">
+                        <div class="layer">
+                            <i class="fa-solid fa-file"></i>
+                            <h3>Computational Thinking</h3><br>
+                            <p>I have completed the Guvi Computational Thinking course and I am proud to have enhanced
+                                my skills in this area.</p><br>
+                            <a href="images/guvi computational thinking.jfif" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/intern 2.jfif ">
+                        <div class="layer">
+                            <i class="fa-solid fa-file"></i>
+                            <h3>Internship</h3><br>
+                            <p>I have completed an internship in web development at AxelIT in Australia. During my time
+                                there, I was able to gain valuable experience in this domain and I am looking forward to
+                                applying the knowledge I have acquired to my future endeavors.</p><br>
+                            <a href="images/intern 2.jfif" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/DOC-20230112-WA0009._page-0001.jpg ">
+                        <div class="layer">
+                            <i class="fa-solid fa-file"></i>
+                            <h3>Internship</h3><br>
+                            <p>I have completed an internship in web development at NANDHA INFOTECH in Coimbatore.
+                                During my time there, I was able to gain valuable experience in this domain and I am
+                                looking forward to applying the knowledge I have acquired to my future endeavors.</p>
+                            <br>
+                            <a href="images/DOC-20230112-WA0009._page-0001.jpg" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="work">
+                        <img src="images/NPTEL.jfif ">
+                        <div class="layer">
+                            <i class="fa-solid fa-file"></i>
+                            <h3>NPTEL</h3><br>
+                            <p>I have completed the Introduction to Internet of Things course offered by NPTEL. This
+                                course has provided me with an in-depth understanding of the Internet of Things, its
+                                applications, and the potential opportunities it can offer. I am confident that the
+                                knowledge and skills I have gained from this course will be of great value to my
+                                professional development.</p><br>
+                            <a href="images/NPTEL.jfif" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <!-- --------------- Contact ---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:bewithsudharsan@gmail.com" target="_blank"><i
+                                class="fa-solid fa-paper-plane"></i></a>bewithsudharsan@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 - 6385299677</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sudharsanm01/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/m.sudharsan_07_/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href=https://www.hackerrank.com/bewithsudharsan target="_blank"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                        <a href="https://github.com/Sudharsan-M" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div><br><br>
+
+                    <a href="images/Sudharsan.pdf" download target="_blank" class="btn btn2"
+                        style="text-decoration: none;">Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button-17">Submit</button><br><br><br>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Sudharsan M.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        const btnScrollToTop = document.querySelector('#btnScrollToTop');
+        btnScrollToTop.addEventListener('click', function () {
+            // window.scrollTo(0, 0);
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+            //     $("html, body").animate({scrollTop: 0}, "slow");
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwBeFq3TZ4EtkSKGbA2FY5V66rBmbfTLbIiBVeNm07eVPMAxcKKCpsZBJJvzdk18UvMPg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
