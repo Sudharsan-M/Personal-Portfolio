@@ -11,6 +11,8 @@ About: A detailed overview of my background, education, work experience, and pro
 Projects: Showcase of my completed projects, including descriptions, screenshots, and links to live demos or repositories.
     
 Skills: Display of my technical skills, programming languages, frameworks, and tools that I'm proficient in.
+
+Certifications: Showcase of my completed course certifications.
     
 Resume: Downloadable version of my resume in PDF format.
     
